@@ -166,8 +166,8 @@ checkoutBtn.addEventListener("click", function () {
     })
     .join("");
 
-  const message = encodeURIComponent(cartItems);
-  const phone = "11982123118";
+ const message = encodeURIComponent(cartItems);
+const phone = "5511982123118"; // com DDI do Brasil (55)
 
   window.open(
     `https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`,
